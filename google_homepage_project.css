@@ -1,3 +1,4 @@
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -42,8 +43,16 @@
  width: 50px;
   margin: 20px;
 }
+.navprofilepic{
+width: 24px;
+height: 20px;
+background: blue;
+border-radius: 50%;
+
+}
 .logo-box{
   background-color: #FFFFFF;
+  margin-bottom: 40px;
   display: flex;
   align-items: center;
   justify-content:center;
@@ -60,6 +69,7 @@ button {
 form {
   background-color: #ffffff;
   border-radius: 5px;
+  margin-top; 30px;
   width:500px;
   display: flex;
   flex-direction: row;
@@ -68,6 +78,9 @@ form {
   border-radius: calc(0.5 * var(--ntp-realbox-height));
   box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
   height: var(--ntp-realbox-height);
+}
+.formspace{
+  margin-top:50px;
 }
 input {
   all: unset;
