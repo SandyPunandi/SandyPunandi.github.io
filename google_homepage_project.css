@@ -1,4 +1,9 @@
 
+html, body {
+display:flex;
+flex-direction: column;
+height: 100%;
+}
 .navbar {
   display: flex;
   flex-direction: row;
@@ -97,19 +102,44 @@ svg {
   height: 24px;
   padding: 10px;
 }
-ntp-realbox-icon {
-  height: 100%;
-  left: 12px;
-  position: absolute;
-  top: 0;
-}
 
+#buttons {
+  display:flex;
+justify-content: center;
+margin-top:30px;
+}
+.button {
+  margin-left: 30px;
+  margin-right:30 px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  background:rgb(204, 204, 204)
+}
   
-.footer {
+.#footer {
   background-color: gba(var(--google-grey-900-rgb), .1);
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 50px;
   width: 100%;
+}
+.footer-content {
+  background: rgb(145, 145, 145);
+  border-top:1px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+a {
+  text-decoration:none;
+}
+a:hover {
+   text-decoration: underline;
+}
+#nav a {
+  margin-right: 20px;
 }

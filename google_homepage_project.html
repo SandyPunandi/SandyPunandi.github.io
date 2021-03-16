@@ -1,18 +1,16 @@
 <head> <title>Sandy's google</title>
 <link href="/Users/sandyboy/google-homepage/google_homepage_project.css" rel="stylesheet">
       </head> 
-      
       <!-- NAVBAR -->
   <div class="navbar">
-     <div class="navbtn1">About </div>
-     <div class="navbtn2">Store </div>
-     <div class="navmiddle"> </div>
-     <div class="navbtn3"> Images</div>
-     <div class="navbtn4"> Gmail</div>
+     <a class="navbtn1">About </a>
+     <a class="navbtn2">Store </a>
+     <a class="navmiddle"> </a>
+     <a class="navbtn3"> Images</a>
+     <a class="navbtn4"> Gmail</a>
      <div class="navprofilepic">
      </div>
 </div>
-
 <!-- END NAV BAR -->
 
 <!-- LOGO+SEARCH -->
@@ -23,10 +21,7 @@
     <body>
       <form id="form" class="formspace">
         <input type="search" id="query" name="q" placeholder="Search Google or type a URL">
-            <button>
-              <ntp-realbox-icon id="icon" in-searchbox="" background-image="" mask-image="search.svg"></ntp-realbox-icon>
-            </button>
-      </form>
+          </form>
       <script>
         const f = document.getElementById('form');
        const q = document.getElementById('query');
@@ -37,17 +32,30 @@
                 const win = window.open(url, '_blank');
                 win.focus();
               }
-        
               f.addEventListener('submit', submitted);
+            </div>
       </script>
     </body>
-  </div>
+
+        <!-- LOGO+SEARCH END-->
+
+              <!-- BUTTONS-->
+<div id="buttons">
+  <a class="button">
+  Google Search
+  </a>
+  <a class="button">
+   I'm Feeling Lucky
+  </a>
 </section>
-  
-          <!-- LOGO+SEARCH END-->
+          <!-- BUTTONS END-->
+
 <!-- FOOTER-->
-<div class="footer">
-  United Kingdom
+<div id="footer">
+  <div class="footer-content">
+  <a>United Kingdom </a>
+<a>Advertising</a>
+<a>Business</a>
+<a>How Search Works</a>
 </div>
-<div>Advertising</div><div>Business</div><div>How Search Works</div>
 
