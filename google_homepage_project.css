@@ -37,7 +37,6 @@ height: 100%;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-   justify-content: flex-end;
   width: 50px;
   margin: 20px;
 }
@@ -48,12 +47,18 @@ height: 100%;
  width: 50px;
   margin: 20px;
 }
-.navprofilepic{
-width: 24px;
-height: 20px;
-background: blue;
-border-radius: 50%;
+.navimage{
+  border-radius:
+}
 
+.button-apps {
+  width: 30px;
+  height: 30px;
+  margin-right: 1.5rem;
+  background-color: #fff;
+  background-image: "https://ssl.gstatic.com/gb/images/i1_1967ca6a.png";
+  background-position: -132px -38px;
+  opacity: 0.5;
 }
 .logo-box{
   background-color: #FFFFFF;
@@ -74,7 +79,7 @@ button {
 form {
   background-color: #ffffff;
   border-radius: 5px;
-  margin-top; 30px;
+  margin-top: 30px;
   width:500px;
   display: flex;
   flex-direction: row;
@@ -117,23 +122,21 @@ margin-top:30px;
   background:rgb(204, 204, 204)
 }
   
-.#footer {
-  background-color: gba(var(--google-grey-900-rgb), .1);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 50px;
-  width: 100%;
-}
+.#footer1 {}
+
 .footer-content {
-  background: rgb(145, 145, 145);
+  background: rgb(212, 211, 211);
   border-top:1px solid;
   display: flex;
   flex-direction: row;
-  align-items: center;
   height: 50px;
   width: 100%;
 }
+.footeritems{
+  padding-left:20px;
+  padding-right:20px;
+}
+
 a {
   text-decoration:none;
 }
