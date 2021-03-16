@@ -78,9 +78,25 @@ input {
   padding: 6px 10px;
 }
 svg {
-  color: #gray;
+  color: rgba(var(--google-grey-900-rgb), .1);
   fill: currentColor;
   width: 24px;
   height: 24px;
   padding: 10px;
+}
+ntp-realbox-icon {
+  height: 100%;
+  left: 12px;
+  position: absolute;
+  top: 0;
+}
+
+  
+.footer {
+  background-color: gba(var(--google-grey-900-rgb), .1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  width: 100%;
 }
