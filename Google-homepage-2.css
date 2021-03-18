@@ -2,7 +2,7 @@ html{
     height: 100%;
     min-height: 100%;
 }
-
+    /*Navbar*/
 #navbar {
    display: grid;
    grid-template-columns: 50px 50px 1fr  50px 50px 50px 50px;
@@ -10,8 +10,10 @@ grid-template-rows: 50px;
 grid-template-areas: 
 "about store . gmail images menu sign-in"
 }
+/*End Navbar*/
 
-a{
+/*Main*/
+a,p{
     text-decoration: none;
     color: rgba(0,0,0,0.87);
     font-size: 14px;
@@ -45,8 +47,9 @@ a{
 
 #main{
    display: grid;
+   min-height: 100%;
    grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 200px 70px 70px 200px;
+   grid-template-rows: 293px 90px 60px 200px;
    Grid-template-areas: 
    ". google-logo ."
    ". search ."
@@ -57,19 +60,74 @@ a{
 
    #google-logo {
        grid-area: google-logo;
+       justify-self: center;
+       align-self: end;
    }
    #search{
+       height: 30px;
+       width: 560px; 
     grid-area: search;
+       align-self: center;
 }
    #Im-Feeling-Lucky-button{
     grid-area: Im-Feeling-Lucky-button;
 }
    #flex-box{
     grid-area: flex-box;
-    grid-area: flex-box;
+    justify-self: center;
+    align-self: center;
 }
    #google-text{
     grid-area: google-text;
+    justify-self: center;
+ 
+}
+/*End Main*/
+
+/*Footer*/
+#footer {
+    display: grid;
+    grid-template-columns: 70px 70px 120px 1fr 180px 1fr 70px 70px 70px;
+    grid-template-rows: 50px;
+    grid-template-areas:
+    "Advertising-Button Business-Button How-Search-Works-Button . Carbon-neutral-since-2007-Button . Privacy-Button Terms-Button Settings-Button"
 }
 
-Is this commiting thing working?
+#Advertising-Button{
+      grid-area: Advertising-Button;
+      justify-self: center;
+      align-self: center;
+}
+#Business-Button{
+grid-area: Business-Button;
+justify-self: center;
+align-self: center;
+}
+#How-Search-Works-Button{
+grid-area: How-Search-Works-Button;
+justify-self: center;
+align-self: center;
+}
+#Carbon-neutral-since-2007-Button{
+
+grid-area: Carbon-neutral-since-2007-Button;
+justify-self: center;
+align-self: center;
+}
+#Privacy-Button{
+grid-area: Privacy-Button;
+justify-self: center;
+align-self: center;
+}
+#Terms-Button{
+grid-area: Terms-Button;
+justify-self: center;
+align-self: center;
+}
+#Settings-Button{
+grid-area: Settings-Button;
+justify-self: center;
+align-self: center;
+}
+/*End Footer*/
+
