@@ -47,9 +47,6 @@ height: 100%;
  width: 50px;
   margin: 20px;
 }
-.navimage{
-  border-radius:
-}
 
 .button-apps {
   width: 30px;
@@ -122,14 +119,15 @@ margin-top:30px;
   background:rgb(204, 204, 204)
 }
   
-.#footer1 {}
 
 .footer-content {
   background: rgb(212, 211, 211);
   border-top:1px solid;
   display: flex;
   flex-direction: row;
+  align-items: center;
   height: 50px;
+  padding-left:20px;
   width: 100%;
 }
 .footeritems{
