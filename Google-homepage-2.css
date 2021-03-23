@@ -85,7 +85,7 @@ padding-left: 0px 0px 0px 2px;
        width: 560px; 
        grid-area: search;
        align-self: center;
-       border: 1px, rgba(202, 40, 40, 0.637);
+   
        border-radius: 20px;
 }
 #search:hover {
